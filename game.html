@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <title>mini Craft</title>
+  </head>
+  <body>
+
+    <div class="grid-container" id="grid">
+      <!-- Dynamic Grid for the game -->
+    </div>
+
+    <section class="tool-container">
+        <div id="axe"> </div><span>AXE</span> <div id="shovel"></div><span>Shovel</span><div id="pickaxe"></div><span>Pickaxe</span>
+    </section>
+
+    <div class="inventory" id="inv">
+        <div>
+        <div class="inv_item" id="rock"></div>
+        <p id="rock-counter">0</p>
+    </div>
+
+    <div>
+        <div class="inv_item" id="ground"></div>
+        <p id="ground-counter">0</p>
+    </div>
+
+    <div>
+        <div class="inv_item" id="grass"></div>
+        <p id="grass-counter">0</p>
+    </div>
+
+    <div>
+        <div class="inv_item" id="tree"></div>
+        <p id="tree-counter">0</p>
+    </div>
+
+      <div>
+        <div class="inv_item" id="tree_leaves"></div>
+        <p id="tree_leaves-counter"> 0</p>
+      </div>
+   
+    </div>
+      <button id="reset">Reset</button>
+
+
+    <script src="game.js"></script>
+  </body>
+</html>
